@@ -1,0 +1,76 @@
+#henry-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #EC1F1D;
+}
+
+body {
+  background-color: #212831;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: small;
+}
+
+.container {
+  width: 500px;
+  border-radius: 1%;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #EC1F1D;
+  padding: 20px;
+  border-radius: 1%;
+  margin: 30px;
+  background-color: #385768;
+  color: #eb6b5e;
+}
+
+a {
+  text-decoration: none;
+  color: #eb6b5e;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.fa-brands {
+  margin: 1%;
+}
+
+#xkcd-link {
+  font-size: 15px;
+}
+
+a:hover {
+  color: #212831
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
